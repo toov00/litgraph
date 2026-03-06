@@ -117,4 +117,3 @@ MIT
 - [OpenAlex API Documentation](https://docs.openalex.org/): Complete API reference
 - [OpenAlex Web Search](https://openalex.org/works): Find paper IDs by browsing works
 - [Semantic Scholar](https://www.semanticscholar.org/): Alternative source for finding seed paper IDs
-# LITERATURE_GRAPHER
