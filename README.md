@@ -2,6 +2,8 @@
 
 A CLI tool for mapping citation networks in academic subfields. Built with Python and OpenAlex.
 
+(( Initially wrote this to quickly find relevant papers! I use this in tandem with other search engines. ))
+
 ## What It Does
 
 This tool connects directly to the free [OpenAlex API](https://openalex.org/) to crawl and analyse citation graphs starting from a set of seed papers. It computes PageRank and degree metrics to surface the most influential work in a subfield, and saves the graph as JSON for repeated inspection. No account or API key required!
@@ -27,7 +29,7 @@ pip install -r requirements.txt
 **1. Find seed papers**
 
 ```bash
-python litgraph.py search "digital twin ICS security" --limit 10
+python litgraph.py search "<some keywords>" --limit 10
 ```
 
 Copy the `W<digits>` IDs from the results — you'll use them in the next step.
@@ -52,7 +54,7 @@ python litgraph.py stats my_graph.json
 python litgraph.py top my_graph.json --by pagerank --n 20
 
 # Full detail for a specific paper (ID or title fragment)
-python litgraph.py show my_graph.json "water treatment"
+python litgraph.py show my_graph.json "<some keywords>"
 ```
 
 ## Configuration
