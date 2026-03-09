@@ -62,7 +62,7 @@ class _Colour:
 
 
 def styled(text: object, *codes: str) -> str:
-    """Wrap *text* in ANSI escape codes if the terminal supports colour."""
+    """Wraps text in ANSI escape codes if the terminal supports colour."""
     if not _supports_colour():
         return str(text)
     return "".join(codes) + str(text) + _Colour.RESET
@@ -82,7 +82,7 @@ def truncate(text: str, limit: int) -> str:
 # ---------------------------------------------------------------------------
 
 def _build_session(email: Optional[str] = None) -> requests.Session:
-    """Return a requests Session with retry logic and optional polite-pool header.
+    """Returns a requests Session with retry logic and optional polite-pool header.
 
     OpenAlex routes requests that include a contact email to a faster pool.
     No account or API key is required.
@@ -130,7 +130,7 @@ class Paper:
 
     @classmethod
     def from_api_response(cls, raw: dict, *, is_seed: bool = False) -> "Paper":
-        """Construct a Paper from an OpenAlex Work API dict."""
+        """Constructs a Paper from an OpenAlex Work API dict."""
         return cls(
             paper_id       = _oa_short_id(raw.get("id") or ""),
             title          = raw.get("title") or "Unknown",
@@ -146,7 +146,7 @@ class Paper:
 
     @classmethod
     def stub_from_api(cls, raw: dict) -> "Paper":
-        """Construct a lightweight Paper from an OpenAlex Work stub."""
+        """Constructs a lightweight Paper from an OpenAlex Work stub."""
         return cls(
             paper_id       = _oa_short_id(raw.get("id") or ""),
             title          = raw.get("title") or "Unknown",
@@ -162,12 +162,12 @@ class Paper:
 # ---------------------------------------------------------------------------
 
 def _oa_short_id(full_id: str) -> str:
-    """Strip the OpenAlex URI prefix, returning just the Work ID (e.g. W2741809807)."""
+    """Strips the OpenAlex URI prefix, returning just the Work ID (e.g. W2741809807)."""
     return full_id.removeprefix(_OA_ID_PREFIX)
 
 
 def _oa_authors(raw: dict) -> list[str]:
-    """Extract up to 5 author display names from an OpenAlex authorships list."""
+    """Extracts up to 5 author display names from an OpenAlex authorships list."""
     return [
         a.get("author", {}).get("display_name") or "Unknown"
         for a in (raw.get("authorships") or [])[:5]
@@ -175,27 +175,27 @@ def _oa_authors(raw: dict) -> list[str]:
 
 
 def _oa_venue(raw: dict) -> str:
-    """Extract journal/conference name from primary_location."""
+    """Extracts journal/conference name from primary_location."""
     loc    = raw.get("primary_location") or {}
     source = loc.get("source") or {}
     return source.get("display_name") or ""
 
 
 def _oa_doi(raw: dict) -> str:
-    """Extract a bare DOI (without the https://doi.org/ prefix)."""
+    """Extracts a bare DOI (without the https://doi.org/ prefix)."""
     doi = (raw.get("ids") or {}).get("doi") or ""
     return doi.removeprefix("https://doi.org/")
 
 
 def _oa_arxiv(raw: dict) -> str:
-    """Extract a bare ArXiv ID."""
+    """Extracts a bare ArXiv ID."""
     arxiv = (raw.get("ids") or {}).get("arxiv") or ""
     return arxiv.removeprefix("https://arxiv.org/abs/")
 
 
 def _oa_abstract(raw: dict) -> str:
     """
-    Reconstruct an abstract from OpenAlex's inverted-index format.
+    Reconstructs an abstract from OpenAlex's inverted-index format.
 
     OpenAlex stores abstracts as ``{word: [position, ...], ...}`` to save
     space.  We invert this back to a readable string.
@@ -227,7 +227,7 @@ class OpenAlexClient:
         self._session = _build_session(email)
 
     def fetch_paper(self, work_id: str) -> Optional[dict]:
-        """Fetch full metadata for a single Work ID (e.g. W2741809807, DOI, URL).
+        """Fetches full metadata for a single Work ID (e.g. W2741809807, DOI, URL).
 
         Accepts:
             W<digits>                   OpenAlex Work ID
@@ -247,7 +247,7 @@ class OpenAlexClient:
         return self._get(url, params={"select": _FULL_SELECT})
 
     def fetch_papers_by_ids(self, work_ids: list[str]) -> list[dict]:
-        """Batch-fetch up to 50 Work stubs in a single API call.
+        """Batches fetch up to 50 Work stubs in a single API call.
 
         OpenAlex supports filter=openalex_id:<id1>|<id2>|... which is far
         more efficient than individual fetches for building stub nodes.
@@ -267,7 +267,7 @@ class OpenAlexClient:
         return (result or {}).get("results", [])
 
     def search(self, query: str, limit: int = 10) -> list[dict]:
-        """Search for works matching *query*. Returns a list of raw dicts."""
+        """Searches for works matching *query*. Returns a list of raw dicts."""
         result = self._get(
             f"{_API_BASE}/works",
             params={"search": query, "select": _STUB_SELECT, "per_page": limit},
@@ -281,7 +281,7 @@ class OpenAlexClient:
         *,
         _attempt: int = 0,
     ) -> Optional[dict]:
-        """Execute a GET request, handling rate limits with exponential back-off."""
+        """Executes a GET request, handling rate limits with exponential back-off."""
         try:
             resp = self._session.get(url, params=params, timeout=_REQUEST_TIMEOUT)
         except requests.RequestException as exc:
@@ -323,7 +323,7 @@ def build_graph(
     client: OpenAlexClient,
 ) -> nx.DiGraph:
     """
-    Build a directed citation graph by BFS from *seed_ids*.
+    Builds a directed citation graph by BFS from *seed_ids*.
 
     Nodes carry all :class:`Paper` fields as attributes.
     Edges carry an ``edge_type`` attribute: ``"references"`` (A→B means A
