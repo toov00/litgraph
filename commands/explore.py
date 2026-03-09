@@ -1,7 +1,5 @@
 from pathlib import Path
 
-import argparse
-
 from commands.base import OpenAlexCommand
 from graph.citation_graph import build_graph
 from graph.io import save_graph
