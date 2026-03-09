@@ -2,7 +2,7 @@
 
 A CLI tool for mapping citation networks in academic subfields. Built with Python and OpenAlex.
 
-(( Initially wrote this to quickly find relevant papers! I use this in tandem with other search engines. ))
+(( I use this in tandem with other search engines to quickly find relevant papers! ))
 
 ## What It Does
 
