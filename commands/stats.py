@@ -1,10 +1,7 @@
-from pathlib import Path
-
 import argparse
 import networkx as nx
 
-from commands.base import Command
-from graph.io import load_graph
+from commands.base import GraphFileCommand
 from graph.metrics import compute_metrics
 from core.style import rule, styled, truncate, Colour
 
@@ -44,8 +41,7 @@ def _print_top_pagerank(graph, metrics):
     )
 
 
-def run_stats(graph_path):
-    graph = load_graph(graph_path)
+def run_stats(graph):
     metrics = compute_metrics(graph)
 
     print(rule())
@@ -59,12 +55,9 @@ def run_stats(graph_path):
     print(f"\n{rule()}\n")
 
 
-class StatsCommand(Command):
+class StatsCommand(GraphFileCommand):
     name = "stats"
     help = "Print graph-level statistics"
 
-    def add_arguments(self, parser):
-        parser.add_argument('file', help='path to graph json')
-
     def run(self, args):
-        run_stats(Path(args.file))
+        run_stats(self.get_graph(args))

@@ -1,14 +1,11 @@
-from pathlib import Path
-
 import argparse
 
-from commands.base import Command
+from commands.base import GraphFileCommand
 from display.paper_display import (
     print_paper,
     print_neighbour_list,
     resolve_paper_id,
 )
-from graph.io import load_graph
 from graph.metrics import compute_metrics
 from core.style import rule, styled, Colour
 
@@ -22,8 +19,7 @@ def _enrich_attrs(node_id, attrs, metrics):
     }
 
 
-def run_show(graph_path, paper_id_query):
-    graph = load_graph(graph_path)
+def run_show(graph, paper_id_query):
     node_id = resolve_paper_id(graph, paper_id_query)
     if node_id is None:
         return
@@ -48,13 +44,13 @@ def run_show(graph_path, paper_id_query):
     print(f"\n{rule()}\n")
 
 
-class ShowCommand(Command):
+class ShowCommand(GraphFileCommand):
     name = "show"
     help = "Inspect a single paper"
 
     def add_arguments(self, parser):
-        parser.add_argument('file', help='path to graph json')
+        super().add_arguments(parser)
         parser.add_argument('paper_id', help='work id or bit of title')
 
     def run(self, args):
-        run_show(Path(args.file), args.paper_id)
+        run_show(self.get_graph(args), args.paper_id)

@@ -2,14 +2,13 @@ from dataclasses import asdict
 
 import argparse
 
-from api.client import OpenAlexClient
-from commands.base import Command
+from commands.base import OpenAlexCommand
 from display.paper_display import print_paper
 from model.paper import Paper
 from core.style import rule, styled, Colour
 
 
-def run_search(client: OpenAlexClient, query: str, limit: int) -> None:
+def run_search(client, query, limit):
     results = client.search(query, limit=limit)
     if not results:
         print(styled('  No results found', Colour.RED))
@@ -26,18 +25,14 @@ def run_search(client: OpenAlexClient, query: str, limit: int) -> None:
     print(rule())
 
 
-class SearchCommand(Command):
+class SearchCommand(OpenAlexCommand):
     name = "search"
     help = "Search for papers by keyword"
 
-    def add_arguments(self, parser: argparse.ArgumentParser) -> None:
+    def add_arguments(self, parser):
+        super().add_arguments(parser)
         parser.add_argument("query", help="Search query string")
         parser.add_argument("--limit", type=int, default=10, help="Max results (default: 10)")
-        parser.add_argument(
-            '--email', dest='email', default=None,
-            help='email for polite pool (faster rate limit)',
-        )
 
     def run(self, args):
-        client = OpenAlexClient(email=getattr(args, "email", None))
-        run_search(client, args.query, args.limit)
+        run_search(self.get_client(args), args.query, args.limit)

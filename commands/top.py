@@ -1,11 +1,8 @@
-from pathlib import Path
-
 import argparse
 import networkx as nx
 
-from commands.base import Command
+from commands.base import GraphFileCommand
 from display.paper_display import print_paper
-from graph.io import load_graph
 from graph.metrics import compute_metrics
 from core.style import rule, styled, Colour
 
@@ -27,8 +24,7 @@ def _enrich_node_attrs(node_id, attrs, metrics):
     }
 
 
-def run_top(graph_path, by, n):
-    graph = load_graph(graph_path)
+def run_top(graph, by, n):
     metrics = compute_metrics(graph)
     nodes = list(graph.nodes(data=True))
     sort_map = _sort_key_fns()
@@ -52,12 +48,12 @@ def run_top(graph_path, by, n):
     print(rule())
 
 
-class TopCommand(Command):
+class TopCommand(GraphFileCommand):
     name = "top"
     help = "List most influential papers"
 
     def add_arguments(self, parser):
-        parser.add_argument('file', help='path to graph json')
+        super().add_arguments(parser)
         parser.add_argument(
             "--by", choices=["pagerank", "citations", "year"], default="pagerank",
             help="Sort criterion (default: pagerank)",
@@ -65,4 +61,4 @@ class TopCommand(Command):
         parser.add_argument('--n', type=int, default=15, help='how many to show (default 15)')
 
     def run(self, args):
-        run_top(Path(args.file), args.by, args.n)
+        run_top(self.get_graph(args), args.by, args.n)

@@ -2,8 +2,7 @@ from pathlib import Path
 
 import argparse
 
-from api.client import OpenAlexClient
-from commands.base import Command
+from commands.base import OpenAlexCommand
 from graph.citation_graph import build_graph
 from graph.io import save_graph
 from core.style import rule, styled, Colour
@@ -21,11 +20,12 @@ def run_explore(client, seeds, depth, max_nodes, output_path):
     print(f"  {styled(f'litgraph show {output_path} <id>', Colour.CYAN)}  — paper details\n")
 
 
-class ExploreCommand(Command):
+class ExploreCommand(OpenAlexCommand):
     name = "explore"
     help = "Crawl and save a citation graph"
 
-    def add_arguments(self, parser: argparse.ArgumentParser) -> None:
+    def add_arguments(self, parser):
+        super().add_arguments(parser)
         parser.add_argument(
             "--seeds", nargs="+", required=True,
             help="OpenAlex Work IDs (W<digits>), doi:<value>, or full OpenAlex URIs",
@@ -42,15 +42,10 @@ class ExploreCommand(Command):
             "--output", default="graph_data.json",
             help="Output JSON file (default: graph_data.json)",
         )
-        parser.add_argument(
-            '--email', dest='email', default=None,
-            help='email for polite pool',
-        )
 
     def run(self, args):
-        client = OpenAlexClient(email=getattr(args, "email", None))
         run_explore(
-            client,
+            self.get_client(args),
             args.seeds,
             args.depth,
             args.max_nodes,
