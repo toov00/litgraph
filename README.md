@@ -106,10 +106,6 @@ The tool requires an active internet connection. Papers not indexed by OpenAlex 
 
 Contributions are welcome! If you find bugs, have feature suggestions, or want to improve the code, feel free to open an issue or submit a pull request.
 
-When contributing, please:
-- Update documentation if you add new features
-- Keep the code readable and well-commented
-
 ## License
 
 MIT
