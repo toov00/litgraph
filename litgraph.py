@@ -49,16 +49,16 @@ def _supports_colour() -> bool:
 
 
 class _Colour:
-    RESET   = "\033[0m"
-    BOLD    = "\033[1m"
-    DIM     = "\033[2m"
-    CYAN    = "\033[36m"
-    YELLOW  = "\033[33m"
-    GREEN   = "\033[32m"
-    RED     = "\033[31m"
-    BLUE    = "\033[34m"
-    MAGENTA = "\033[35m"
-    WHITE   = "\033[97m"
+    RESET   = "\033[30m"
+    BOLD    = "\033[30m"
+    DIM     = "\033[30m" # black
+    CYAN    = "\033[30m"
+    YELLOW  = "\033[30m"
+    GREEN   = "\033[30m"
+    RED     = "\033[30m"
+    BLUE    = "\033[30m"
+    MAGENTA = "\033[30m"
+    WHITE   = "\033[30m"
 
 
 def styled(text: object, *codes: str) -> str:
@@ -596,15 +596,16 @@ def cmd_search(args: argparse.Namespace) -> None:
     client  = OpenAlexClient(email=getattr(args, "email", None))
     results = client.search(args.query, limit=args.limit)
 
-    print(rule())
-    print(styled(f'  Search: "{args.query}"', _Colour.CYAN, _Colour.BOLD))
-    print(rule())
+    #print(styled(f'  Search: "{args.query}"', _Colour.CYAN, _Colour.BOLD))
 
     if not results:
         print(styled("  No results found.", _Colour.RED))
         return
 
-    print(f"\n  {styled(len(results), _Colour.BOLD)} results — use these IDs as --seeds:\n")
+    print(rule())
+    print(f"\n  {styled(len(results), _Colour.BOLD)} results found!\n  Tip: use their IDs as --seeds\n")
+    print(rule() + "\n")
+
     for i, raw in enumerate(results, start=1):
         if not raw.get("id"):
             continue
