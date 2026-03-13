@@ -8,7 +8,7 @@ A CLI tool for mapping citation networks in academic subfields. Built with Pytho
 
 This tool connects directly to the free [OpenAlex API](https://openalex.org/) to crawl and analyse citation graphs starting from a set of seed papers. It computes PageRank and degree metrics to surface the most influential work in a subfield, and saves the graph as JSON for repeated inspection. No account or API key required!
 
-**Notable Features**
+**Notable Features:**
 
 - Scriptable: Runs from the terminal or from your own scripts; no browser required! Fits into pipelines and automation.
 - Offline-Friendly: Build the graph once, then run `stats`, `top`, and `show` on the saved file without hitting the API again.
