@@ -8,14 +8,14 @@ A CLI tool for mapping citation networks in academic subfields. Built with Pytho
 
 This tool connects directly to the free [OpenAlex API](https://openalex.org/) to crawl and analyse citation graphs starting from a set of seed papers. It computes PageRank and degree metrics to surface the most influential work in a subfield, and saves the graph as JSON for repeated inspection. No account or API key required!
 
-## Why litgraph?
+**Notable Features**
 
-- **Scriptable** — Run from the terminal or from your own scripts; no browser. Fits into pipelines and automation.
-- **Offline-friendly** — Build the graph once, then run `stats`, `top`, and `show` on the saved file without hitting the API again.
-- **Structural ranking** — Uses PageRank on the citation graph, not just raw citation counts, so you see which papers are central in the subfield.
-- **Zero signup** — Works with OpenAlex only; optional `--email` gets you into the polite pool for faster rate limits.
+- Scriptable: Runs from the terminal or from your own scripts; no browser required! Fits into pipelines and automation.
+- Offline-Friendly: Build the graph once, then run `stats`, `top`, and `show` on the saved file without hitting the API again.
+- Structural Ranking: Uses PageRank on the citation graph, not just raw citation counts, so you see which papers are central in the subfield.
+- Zero Signups: Works with OpenAlex only; optional `--email` gets you into the polite pool for faster rate limits.
 
-Unlike web-based tools, litgraph is a CLI: you keep the graph file and can re-run stats and rankings anytime. Unlike generic OpenAlex libraries, it’s built around one workflow — search, expand, save, inspect — with built-in PageRank and a small set of focused commands.
+Unlike web-based tools, litgraph is a CLI: you keep the graph file and can re-run stats and rankings anytime. Unlike generic OpenAlex libraries, it is built around one workflow (AKA search, expand, save, inspect) with built-in PageRank and a small set of focused commands.
 
 ## Installation
 
