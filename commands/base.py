@@ -20,18 +20,13 @@ class Command(ABC):
 
 
 class GraphFileCommand(Command):
-    """Commands that take a graph json file and load it."""
-
     def add_arguments(self, parser):
         parser.add_argument('file', help='path to graph json')
 
     def get_graph(self, args):
         return load_graph(Path(args.file))
 
-
 class OpenAlexCommand(Command):
-    """Commands that talk to OpenAlex (search, explore)."""
-
     def add_arguments(self, parser):
         parser.add_argument(
             '--email', dest='email', default=None,

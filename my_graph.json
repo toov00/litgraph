@@ -1,0 +1,1275 @@
+{
+  "nodes": [
+    {
+      "id": "W2741809807",
+      "title": "The state of OA: a large-scale analysis of the prevalence and impact of Open Access articles",
+      "year": 2018,
+      "authors": [
+        "Heather Piwowar",
+        "Jason Priem",
+        "Vincent Larivi\u00e8re",
+        "Juan Pablo Alper\u00edn",
+        "Lisa Matthias"
+      ],
+      "citation_count": 1155,
+      "abstract": "Despite growing interest in Open Access (OA) to scholarly literature, there is an unmet need for large-scale, up-to-date, and reproducible studies assessing the prevalence and characteristics of OA. We address this need using oaDOI, an open online service that determines OA status for 67 million articles. We use three samples, each of 100,000 articles, to investigate OA in three populations: (1) a",
+      "venue": "PeerJ",
+      "is_seed": true,
+      "doi": "10.7717/peerj.4375",
+      "arxiv": "",
+      "pagerank": 0.01790517,
+      "in_degree": 0,
+      "out_degree": 54
+    },
+    {
+      "id": "W1767272795",
+      "title": "The journal coverage of Web of Science and Scopus: a comparative analysis",
+      "year": 2015,
+      "authors": [
+        "Philippe Mongeon",
+        "Ad\u00e8le Paul\u2010Hus"
+      ],
+      "citation_count": 4247,
+      "abstract": "",
+      "venue": "Scientometrics",
+      "is_seed": false,
+      "doi": "10.1007/s11192-015-1765-5",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2463568293",
+      "title": "How open science helps researchers succeed",
+      "year": 2016,
+      "authors": [
+        "Erin C. McKiernan",
+        "Philip E. Bourne",
+        "C. Titus Brown",
+        "Stuart Buck",
+        "Amye Kenall"
+      ],
+      "citation_count": 802,
+      "abstract": "Open access, open data, open source and other open scholarship practices are growing in popularity and necessity. However, widespread adoption of these practices has not yet been achieved. One reason is that researchers are uncertain about how sharing their work will affect their careers. We review literature demonstrating that open research is associated with increases in citations, media attenti",
+      "venue": "eLife",
+      "is_seed": false,
+      "doi": "10.6084/m9.figshare.1619902.v7",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2016860460",
+      "title": "The Development of Open Access Journal Publishing from 1993 to 2009",
+      "year": 2011,
+      "authors": [
+        "Mikael Laakso",
+        "Patrik Welling",
+        "Helena Bukvova",
+        "Linus Nyman",
+        "Bo\u2010Christer Bj\u00f6rk"
+      ],
+      "citation_count": 760,
+      "abstract": "Open Access (OA) is a model for publishing scholarly peer reviewed journals, made possible by the Internet. The full text of OA journals and articles can be freely read, as the publishing is funded through means other than subscriptions. Empirical research concerning the quantitative development of OA publishing has so far consisted of scattered individual studies providing brief snapshots, using ",
+      "venue": "PLoS ONE",
+      "is_seed": false,
+      "doi": "10.1371/journal.pone.0020961",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2048185449",
+      "title": "Self-Selected or Mandated, Open Access Increases Citation Impact for Higher Quality Research",
+      "year": 2010,
+      "authors": [
+        "Yassine Gargouri",
+        "Chawki Hajjem",
+        "Vincent Larivi\u00e8re",
+        "Yves Gingras",
+        "Leslie Carr"
+      ],
+      "citation_count": 596,
+      "abstract": "The OA advantage is greater for the more citable articles, not because of a quality bias from authors self-selecting what to make OA, but because of a quality advantage, from users self-selecting what to use and cite, freed by OA from the constraints of selective accessibility to subscribers only. It is hoped that these findings will help motivate the adoption of OA self-archiving mandates by univ",
+      "venue": "PLoS ONE",
+      "is_seed": false,
+      "doi": "10.1371/journal.pone.0013636",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2322381034",
+      "title": "The academic, economic and societal impacts of Open Access: an evidence-based review",
+      "year": 2016,
+      "authors": [
+        "Jonathan Tennant",
+        "Fran\u00e7ois Waldner",
+        "Damien Jacques",
+        "Paola Masuzzo",
+        "Lauren Collister"
+      ],
+      "citation_count": 536,
+      "abstract": "Ongoing debates surrounding Open Access to the scholarly literature are multifaceted and complicated by disparate and often polarised viewpoints from engaged stakeholders. At the current stage, Open Access has become such a global issue that it is critical for all involved in scholarly publishing, including policymakers, publishers, research funders, governments, learned societies, librarians, and",
+      "venue": "F1000Research",
+      "is_seed": false,
+      "doi": "10.12688/f1000research.8460.3",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2140880926",
+      "title": "Open Access to the Scientific Journal Literature: Situation 2009",
+      "year": 2010,
+      "authors": [
+        "Bo\u2010Christer Bj\u00f6rk",
+        "Patrik Welling",
+        "Mikael Laakso",
+        "P\u00e9ter Majlender",
+        "Turid Hedlund"
+      ],
+      "citation_count": 524,
+      "abstract": "The results show that OA already has a significant positive impact on the availability of the scientific journal literature and that there are big differences between scientific disciplines in the uptake. Due to the lack of awareness of OA-publishing among scientists in most fields outside physics, the results should be of general interest to all scholars. The results should also interest academic",
+      "venue": "PLoS ONE",
+      "is_seed": false,
+      "doi": "10.1371/journal.pone.0011273",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2089123513",
+      "title": "Do open access articles have greater citation impact?A critical review of the literature",
+      "year": 2007,
+      "authors": [
+        "Iain Craig",
+        "Andrew Plume",
+        "Marie McVeigh",
+        "James Pringle",
+        "Md Nurul Amin"
+      ],
+      "citation_count": 376,
+      "abstract": "",
+      "venue": "Journal of Informetrics",
+      "is_seed": false,
+      "doi": "10.1016/j.joi.2007.04.001",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2115339903",
+      "title": "Anatomy of open access publishing: a study of longitudinal development and internal structure",
+      "year": 2012,
+      "authors": [
+        "Mikael Laakso",
+        "Bo\u2010Christer Bj\u00f6rk"
+      ],
+      "citation_count": 361,
+      "abstract": "",
+      "venue": "BMC Medicine",
+      "is_seed": false,
+      "doi": "10.1186/1741-7015-10-124",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2160597895",
+      "title": "Open access, readership, citations: a randomized controlled trial of scientific journal publishing",
+      "year": 2011,
+      "authors": [
+        "Philip M. Davis"
+      ],
+      "citation_count": 299,
+      "abstract": "Does free access to journal articles result in greater diffusion of scientific knowledge? Using a randomized controlled trial of open access publishing, involving 36 participating journals in the sciences, social sciences, and humanities, we report on the effects of free access on article downloads and citations. Articles placed in the open access condition (n=712) received significantly more down",
+      "venue": "The FASEB Journal",
+      "is_seed": false,
+      "doi": "10.1096/fj.11-183988",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W1560783210",
+      "title": "Anatomy of green open access",
+      "year": 2013,
+      "authors": [
+        "Bo\u2010Christer Bj\u00f6rk",
+        "Mikael Laakso",
+        "Patrik Welling",
+        "Patrik Paetau"
+      ],
+      "citation_count": 233,
+      "abstract": "Open access ( OA ) is free, unrestricted access to electronic versions of scholarly publications. For peer\u2010reviewed journal articles, there are two main routes to OA : publishing in OA journals (gold OA ) or archiving of article copies or manuscripts at other web locations (green OA ). This study focuses on summarizing and extending current knowledge about green OA . A synthesis of previous studie",
+      "venue": "Journal of the Association for Information Science and Technology",
+      "is_seed": false,
+      "doi": "10.1002/asi.22963",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2003844967",
+      "title": "The impact of free access to the scientific literature: a review of recent research",
+      "year": 2011,
+      "authors": [
+        "Philip M. Davis",
+        "William H. Walters"
+      ],
+      "citation_count": 208,
+      "abstract": "Recent studies provide little evidence to support the idea that there is a crisis in access to the scholarly literature. Further research is needed to investigate whether free access is making a difference in non-research contexts and to better understand the dissemination of scientific literature through peer-to-peer networks and other informal mechanisms.",
+      "venue": "Journal of the Medical Library Association JMLA",
+      "is_seed": false,
+      "doi": "10.3163/1536-5050.99.3.008",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2343014812",
+      "title": "Who's downloading pirated papers? Everyone",
+      "year": 2016,
+      "authors": [
+        "John Bohannon"
+      ],
+      "citation_count": 203,
+      "abstract": "Data from the controversial website Sci-Hub reveal that the whole world turns to it for journal articles.",
+      "venue": "Science",
+      "is_seed": false,
+      "doi": "10.1126/science.352.6285.508",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W1989318653",
+      "title": "The Access/Impact Problem and the Green and Gold Roads to Open Access: An Update",
+      "year": 2008,
+      "authors": [
+        "Stevan Harnad",
+        "Tim Brody",
+        "Fran\u00e7ois Valli\u00e8res",
+        "Leslie Carr",
+        "Steve Hitchcock"
+      ],
+      "citation_count": 200,
+      "abstract": "The research access/impact problem arises because journal articles are not accessible to all of their would-be users; hence, they are losing potential research impact. The solution is to make all articles open access (OA, i.e., accessible online, free for all). OA articles have significantly higher citation impact than non-OA articles. There are two roads to OA: the \u201cgolden\u201d road (publish your art",
+      "venue": "Serials Review",
+      "is_seed": false,
+      "doi": "10.1016/j.serrev.2007.12.005",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2997143876",
+      "title": "The academic, economic and societal impacts of Open Access: an evidence-based review",
+      "year": 2016,
+      "authors": [
+        "Jonathan Tennant",
+        "Fran\u00e7ois Waldner",
+        "Damien Jacques",
+        "Paola Masuzzo",
+        "Lauren Collister"
+      ],
+      "citation_count": 182,
+      "abstract": "<ns4:p>Ongoing debates surrounding Open Access to the scholarly literature are multifaceted and complicated by disparate and often polarised viewpoints from engaged stakeholders. At the current stage, Open Access has become such a global issue that it is critical for all involved in scholarly publishing, including policymakers, publishers, research funders, governments, learned societies, libraria",
+      "venue": "F1000Research",
+      "is_seed": false,
+      "doi": "10.12688/f1000research.8460.1",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2785823074",
+      "title": "Sci-Hub provides access to nearly all scholarly literature",
+      "year": 2018,
+      "authors": [
+        "Daniel Himmelstein",
+        "Ariel R Romero",
+        "Jacob Levernier",
+        "Thomas A. Munro",
+        "Stephen Reid McLaughlin"
+      ],
+      "citation_count": 170,
+      "abstract": "The website Sci-Hub enables users to download PDF versions of scholarly articles, including many articles that are paywalled at their journal's site. Sci-Hub has grown rapidly since its creation in 2011, but the extent of its coverage has been unclear. Here we report that, as of March 2017, Sci-Hub's database contains 68.9% of the 81.6 million scholarly articles registered with Crossref and 85.1% ",
+      "venue": "eLife",
+      "is_seed": false,
+      "doi": "10.7554/elife.32822",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W3121567788",
+      "title": "IDENTIFYING THE EFFECT OF OPEN ACCESS ON CITATIONS USING A PANEL OF SCIENCE JOURNALS",
+      "year": 2014,
+      "authors": [
+        "Mark J. McCabe",
+        "Christopher M. Snyder"
+      ],
+      "citation_count": 167,
+      "abstract": "An open\u2010access journal allows free online access to its articles, obtaining revenue from fees charged to submitting authors or from institutional support. Using panel data on science journals, we are able to circumvent problems plaguing previous studies of the impact of open access on citations. In contrast to the huge effects found in these previous studies, we find a more modest effect: moving f",
+      "venue": "Economic Inquiry",
+      "is_seed": false,
+      "doi": "10.1111/ecin.12064",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W4254015553",
+      "title": "The Access/Impact Problem and the Green and Gold Roads to Open Access: An Update",
+      "year": 2008,
+      "authors": [
+        "Stevan Harnad",
+        "Tim Brody",
+        "Fran\u00e7ois Valli\u00e8res",
+        "Leslie Carr",
+        "Steve Hitchcock"
+      ],
+      "citation_count": 156,
+      "abstract": "The research access/impact problem arises because journal articles are not accessible to all of their would-be users; hence, they are losing potential research impact. The solution is to make all articles open access (OA, i.e., accessible online, free for all). OA articles have significantly higher citation impact than non-OA articles. There are two roads to OA: the \u201cgolden\u201d road (publish your art",
+      "venue": "Serials Review",
+      "is_seed": false,
+      "doi": "10.1080/00987913.2008.10765150",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2588027260",
+      "title": "Copyright compliance and infringement in ResearchGate full-text journal articles",
+      "year": 2017,
+      "authors": [
+        "Hamid R. Jamali"
+      ],
+      "citation_count": 151,
+      "abstract": "",
+      "venue": "Scientometrics",
+      "is_seed": false,
+      "doi": "10.1007/s11192-017-2291-4",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2753353163",
+      "title": "Knowledge sharing in global health research \u2013 the impact, uptake and cost of open access to scholarly literature",
+      "year": 2017,
+      "authors": [
+        "Elise Smith",
+        "Stefanie Haustein",
+        "Philippe Mongeon",
+        "Fei Shu",
+        "Val\u00e9ry Ridde"
+      ],
+      "citation_count": 150,
+      "abstract": "",
+      "venue": "Health Research Policy and Systems",
+      "is_seed": false,
+      "doi": "10.1186/s12961-017-0235-3",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2587705861",
+      "title": "Gold, green, and black open access",
+      "year": 2017,
+      "authors": [
+        "Bo\u2010Christer Bj\u00f6rk"
+      ],
+      "citation_count": 138,
+      "abstract": "Key points The debate about open access has until now focused on the gold (journals) versus the green route (manuscript self-archival). Recently an even more disruptive form of OA has emerged, in the form of illegal article copies retrievable from academic social networks or pirate sites. Illegal, or \u201cblack open access\u201d, provides access to a large part of the pay-walled article output which cannot",
+      "venue": "Learned Publishing",
+      "is_seed": false,
+      "doi": "10.1002/leap.1096",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2520991028",
+      "title": "Hybrid open access\u2014A longitudinal study",
+      "year": 2016,
+      "authors": [
+        "Mikael Laakso",
+        "Bo\u2010Christer Bj\u00f6rk"
+      ],
+      "citation_count": 127,
+      "abstract": "This study estimates the development of hybrid open access (OA), i.e. articles published openly on the web within subscription-access journals. Included in the study are the five largest publishers of scholarly journals; Elsevier, Springer, Wiley-Blackwell, Taylor &amp; Francis, and Sage. Since no central indexing or standardized metadata exists for identifying hybrid OA an explorative bottom-up m",
+      "venue": "Journal of Informetrics",
+      "is_seed": false,
+      "doi": "10.1016/j.joi.2016.08.002",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2029057325",
+      "title": "Delayed open access: An overlooked high\u2010impact category of openly available scientific literature",
+      "year": 2013,
+      "authors": [
+        "Mikael Laakso",
+        "Bo\u2010Christer Bj\u00f6rk"
+      ],
+      "citation_count": 118,
+      "abstract": "Delayed open access ( OA ) refers to scholarly articles in subscription journals made available openly on the web directly through the publisher at the expiry of a set embargo period. Although a substantial number of journals have practiced delayed OA since they started publishing e\u2010versions, empirical studies concerning OA have often overlooked this body of literature. This study provides compreh",
+      "venue": "Journal of the American Society for Information Science and Technology",
+      "is_seed": false,
+      "doi": "10.1002/asi.22856",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2511661767",
+      "title": "The Post-Embargo Open Access Citation Advantage: It Exists (Probably), It\u2019s Modest (Usually), and the Rich Get Richer (of Course)",
+      "year": 2016,
+      "authors": [
+        "Ottaviani Jim"
+      ],
+      "citation_count": 102,
+      "abstract": "Many studies show that open access (OA) articles-articles from scholarly journals made freely available to readers without requiring subscription fees-are downloaded, and presumably read, more often than closed access/subscription-only articles. Assertions that OA articles are also cited more often generate more controversy. Confounding factors (authors may self-select only the best articles to ma",
+      "venue": "PLoS ONE",
+      "is_seed": false,
+      "doi": "10.1371/journal.pone.0159614",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W1957687230",
+      "title": "The SciELO Open Access: A Gold Way from the South",
+      "year": 2010,
+      "authors": [
+        "Abel L. Packer"
+      ],
+      "citation_count": 98,
+      "abstract": "Open access has long emphasized access to scholarly materials. However, open access can also mean access to the means of producing visible and recognized journals. This issue is particularly important in developing and emergent countries. The SciELO (Scientific Electronic Library On-line) project, first started in Brazil and, shortly afterward, in Chile, offers a prime example of how this form of ",
+      "venue": "Canadian Journal of Higher Education",
+      "is_seed": false,
+      "doi": "10.47678/cjhe.v39i3.479",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2231201268",
+      "title": "Availability of digital object identifiers (DOIs) in Web of Science and Scopus",
+      "year": 2016,
+      "authors": [
+        "Juan Gorraiz",
+        "David Melero-Fuentes",
+        "Christian Gumpenberger",
+        "Juan Carlos Valderrama\u2010Zuri\u00e1n"
+      ],
+      "citation_count": 94,
+      "abstract": "",
+      "venue": "Journal of Informetrics",
+      "is_seed": false,
+      "doi": "10.1016/j.joi.2015.11.008",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W1917633107",
+      "title": "Gratis and Libre Open Access",
+      "year": 2016,
+      "authors": [],
+      "citation_count": 75,
+      "abstract": "",
+      "venue": "The MIT Press eBooks",
+      "is_seed": false,
+      "doi": "10.7551/mitpress/8479.003.0013",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2953072907",
+      "title": "Looking into Pandora's Box: The Content of Sci-Hub and its Usage",
+      "year": 2017,
+      "authors": [
+        "Bastian Greshake Tzovaras"
+      ],
+      "citation_count": 61,
+      "abstract": "<ns4:p>Despite the growth of Open Access, potentially illegally circumventing paywalls to access scholarly publications is becoming a more mainstream phenomenon. The web service Sci-Hub is amongst the biggest facilitators of this, offering free access to around 62 million publications. So far it is not well studied how and why its users are accessing publications through Sci-Hub. By utilizing the ",
+      "venue": "F1000Research",
+      "is_seed": false,
+      "doi": "10.12688/f1000research.11366.1",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2511663072",
+      "title": "Research impact of paywalled versus open access papers",
+      "year": 2016,
+      "authors": [
+        "\u00c9ric Archambault",
+        "Gr\u00e9goire C\u00f4t\u00e9",
+        "Brooke Struck",
+        "Matthieu Voorons"
+      ],
+      "citation_count": 47,
+      "abstract": "There is an abundant literature on the citation advantage of OA papers, starting with a succinct communication by Lawrence (2001). Several studies have been listed by SPARC, the majority of which support the idea that when papers are openly available, they are more cited than papers for which availability is restricted to those who pay for access (http://sparceurope.org/oaca/). As noted by Diana H",
+      "venue": "Insecta mundi",
+      "is_seed": false,
+      "doi": "10.5281/zenodo.10023327",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2737712680",
+      "title": "Sci-Hub provides access to nearly all scholarly literature",
+      "year": 2017,
+      "authors": [
+        "Daniel Himmelstein",
+        "Ariel R Romero",
+        "Stephen Reid McLaughlin",
+        "Bastian Greshake Tzovaras",
+        "Casey S. Greene"
+      ],
+      "citation_count": 39,
+      "abstract": "The website Sci-Hub provides access to scholarly literature via full text PDF downloads. The site enables users to access articles that would otherwise be paywalled. Since its creation in 2011, Sci-Hub has grown rapidly in popularity. However, until now, the extent of Sci-Hub's coverage was unclear. As of March 2017, we find that Sci-Hub's database contains 68.9% of all 81.6 million scholarly arti",
+      "venue": "",
+      "is_seed": false,
+      "doi": "10.7287/peerj.preprints.3100v1",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2566143661",
+      "title": "Scientists in Germany, Peru and Taiwan to lose access to Elsevier journals",
+      "year": 2016,
+      "authors": [
+        "Quirin Schiermeier",
+        "Emiliano Rodr\u00edguez Mega"
+      ],
+      "citation_count": 31,
+      "abstract": "Libraries pursue alternative delivery routes after licence negotiations break down.",
+      "venue": "Nature",
+      "is_seed": false,
+      "doi": "10.1038/nature.2016.21223",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W1724212071",
+      "title": "The nine flavours of open access scholarly publishing.",
+      "year": 2004,
+      "authors": [
+        "John Willinsky"
+      ],
+      "citation_count": 101,
+      "abstract": "",
+      "venue": "PubMed",
+      "is_seed": false,
+      "doi": "",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2306268324",
+      "title": "The open access movement at a crossroad: Are the big publishers and academic social media taking over?",
+      "year": 2016,
+      "authors": [
+        "Bo\u2010Christer Bj\u00f6rk"
+      ],
+      "citation_count": 51,
+      "abstract": "Key points Traditionally, open access (OA) has been growing via two routes: full OA journals (gold) and open self\u2010archiving of manuscripts (green). Gold OA is dominated by new OA publishers (charging APCs) and society/university journals that do not. Major commercial and society publishers are increasingly moving into the APC\u2010funded OA market. The proliferation of big national or consortium\u2010level ",
+      "venue": "Learned Publishing",
+      "is_seed": false,
+      "doi": "10.1002/leap.1021",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2563251083",
+      "title": "Availability of digital object identifiers in publications archived by PubMed",
+      "year": 2017,
+      "authors": [
+        "Christophe Boudry",
+        "Ghislaine Chartron"
+      ],
+      "citation_count": 43,
+      "abstract": "",
+      "venue": "Scientometrics",
+      "is_seed": false,
+      "doi": "10.1007/s11192-016-2225-6",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2078310052",
+      "title": "Free Internet Access to Traditional Journals.",
+      "year": 1998,
+      "authors": [
+        "Thomas J. Walker",
+        "\u8c61\u4e00 \u6642\u5b9f"
+      ],
+      "citation_count": 21,
+      "abstract": "\u30d5\u30ed\u30ea\u30c0\u6606\u866b\u5b66\u4f1a\u3067\u306f\u305d\u306e\u5b66\u4f1a\u8a8cFlorida Entomologist\u306e\u5370\u5237\u7248\u4e0b\u30d5\u30a1\u30a4\u30eb\u304b\u3089PDF\u30d5\u30a1\u30a4\u30eb\u3092\u4f5c\u6210\u3057\uff0c\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u306b\u7121\u6599\u3067\u30a2\u30af\u30bb\u30b9\u63d0\u4f9b\u3057\u3066\u3044\u308b\u3002\u307e\u305f\u6dfb\u4ed8\u8cc7\u6599\u3084\u8457\u8005\u306eWeb\u30b5\u30a4\u30c8\u3078\u306e\u30ea\u30f3\u30af\u3092AuthorLink\u3068\u3057\u3066\u8457\u8005\u306b\u8ca9\u58f2\u3057\u3066\u3044\u308b\u3002\u3053\u308c\u3089\u306e\u7d4c\u9a13\u304b\u3089\uff0c\u5b66\u4f1a\u306fPDF\u306b\u3088\u308b\u96fb\u5b50\u5225\u5237\u308a\u3092\uff0c\u901f\u5831\u3092\u5e0c\u671b\u3059\u308b\u8ad6\u6587\u8457\u8005\u306b\u8ca9\u58f2\u3057\u3066\u5f97\u308b\u53ce\u76ca\u306b\u3088\u308a\uff0c\u3059\u3079\u3066\u306e\u8ad6\u6587\u3092\u30a4\u30f3\u30bf\u30fc\u30cd\u30c3\u30c8\u4e0a\u3067\u96fb\u5b50\u30a2\u30af\u30bb\u30b9\u63d0\u4f9b\u3067\u304d\u308b\u3053\u3068\u3092\u4e3b\u5f35\u3059\u308b\u3002\u80cc\u666f\u3068\u3057\u3066\u5b66\u8853\u96d1\u8a8c\u767a\u884c\u306e\u6b74\u53f2\u3068\u6700\u8fd1\u306e\u5b9a\u671f\u520a\u884c\u7269\u306e\u5371\u6a5f\u306b\u3064\u3044\u3066\u89e3\u8aac\u3057\u3066\u3044\u308b\u3002",
+      "venue": "Journal of Information Processing and Management",
+      "is_seed": false,
+      "doi": "10.1241/johokanri.41.678",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2345375849",
+      "title": "Measuring the Degrees of Openness of Scholarly Journals with the Open Access Spectrum (OAS) Evaluation Tool",
+      "year": 2016,
+      "authors": [
+        "Xiaotian Chen",
+        "Tom Olijhoek"
+      ],
+      "citation_count": 19,
+      "abstract": "HowOpenIsIt is a guide created by SPARC (Scholarly Publishing and Academic Resources Coalition), PLOS (Public Library of Science), and OASPA (Open Access Scholarly Publishers Association) to describe an array of policies a journal can have in the continuum between \u201cOpen\u201d and \u201cClosed.\u201d The OAS Evaluation Tool uses the HowOpenIsIt guide to measure the degree of openness of journals of all kinds with",
+      "venue": "Serials Review",
+      "is_seed": false,
+      "doi": "10.1080/00987913.2016.1182672",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2020807482",
+      "title": "Journal Article Retrieval in an Age of Open Access: How Journal Indexes Indicate Open Access Articles",
+      "year": 2013,
+      "authors": [
+        "Xiaotian Chen"
+      ],
+      "citation_count": 16,
+      "abstract": "As the number of Open Access (OA) journal articles increases dramatically, it is time to assess how journal article indexes, both free and subscription-based, retrieve and indicate OA full text. This study uses 471 samples of OA articles to compare OA article retrieval in Google Scholar, PubMed, and Scopus, with Scopus representing subscription-based journal indexes. This study divides journal art",
+      "venue": "Journal of Web Librarianship",
+      "is_seed": false,
+      "doi": "10.1080/19322909.2013.795426",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2031754690",
+      "title": "Status of open access in the biomedical field in 2005",
+      "year": 2009,
+      "authors": [
+        "Mamiko Matsubayashi",
+        "Keiko Kurata",
+        "Yukiko Sakai",
+        "Tomoko Morioka",
+        "Shinya Kato"
+      ],
+      "citation_count": 51,
+      "abstract": "In 2005, OA in the biomedical field was achieved under an umbrella of existing scholarly communication systems. Typically, OA articles were published as part of subscription journals published by scholarly societies. OA journals published by BioMed Central contributed to a small portion of all OA articles.",
+      "venue": "Journal of the Medical Library Association JMLA",
+      "is_seed": false,
+      "doi": "10.3163/1536-5050.97.1.002",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W4301734034",
+      "title": "The Access Principle: The Case for Open Access To Research and Scholarship.",
+      "year": 2006,
+      "authors": [
+        "Marian Burright"
+      ],
+      "citation_count": 40,
+      "abstract": "The article reviews the book \"The Access Principle: The Case for Open Access To Research and Scholarship,\" by John Willinsky.",
+      "venue": "Issues in Science and Technology Librarianship",
+      "is_seed": false,
+      "doi": "10.29173/istl2069",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W1931854307",
+      "title": "Ten-Year Cross-Disciplinary Comparison of the Growth of Open Access and How it Increases Research Citation Impact",
+      "year": 2006,
+      "authors": [
+        "Chawki Hajjem",
+        "Stevan Harnad",
+        "Yves Gingras"
+      ],
+      "citation_count": 355,
+      "abstract": "Lawrence (2001)found computer science articles that were openly accessible (OA) on the Web were cited more. We replicated this in physics. We tested 1,307,038 articles published across 12 years (1992-2003) in 10 disciplines (Biology, Psychology, Sociology, Health, Political Science, Economics, Education, Law, Business, Management). A robot trawls the Web for full-texts using reference metadata ISI",
+      "venue": "arXiv (Cornell University)",
+      "is_seed": false,
+      "doi": "10.48550/arxiv.cs/0606079",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W1944943415",
+      "title": "Green and Gold Open Access Percentages and Growth, by Discipline",
+      "year": 2012,
+      "authors": [
+        "Yassine Gargouri",
+        "Vincent Larivi\u00e8re",
+        "Yves Gingras",
+        "Leslie Carr",
+        "Stevan Harnad"
+      ],
+      "citation_count": 142,
+      "abstract": "Most refereed journal articles today are published in subscription journals, accessible only to subscribing institutions, hence losing considerable research impact. Making articles freely accessible online (\"Open Access,\" OA) maximizes their impact. Articles can be made OA in two ways: by self-archiving them on the web (\"Green OA\") or by publishing them in OA journals (\"Gold OA\"). We compared the ",
+      "venue": "arXiv (Cornell University)",
+      "is_seed": false,
+      "doi": "10.48550/arxiv.1206.3664",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2299516731",
+      "title": "Proportion of Open Access Papers Published in Peer-Reviewed Journals at the European and World Levels\u20141996\u20132013",
+      "year": 2014,
+      "authors": [
+        "\u00c9ric Archambault",
+        "Didier Amyot",
+        "Philippe Deschamps",
+        "Aurore Nicol",
+        "Fran\u00e7oise Provencher"
+      ],
+      "citation_count": 126,
+      "abstract": "This study report assesses the free availability of scholarly publications during the 1996 to 2013 period. It is the largest scale measurement of open access availability performed to date: a sample of one-quarter of a million records was used to study the historical evolution of open access (OA) between 1996 and 2013 and a larger, one million records sample was used to perform an in-depth assessm",
+      "venue": "Insecta mundi",
+      "is_seed": false,
+      "doi": "10.5281/zenodo.10030609",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2762597540",
+      "title": "Publishers take ResearchGate to court, alleging massive copyright infringement",
+      "year": 2017,
+      "authors": [],
+      "citation_count": 32,
+      "abstract": "",
+      "venue": "AAAS Articles DO Group",
+      "is_seed": false,
+      "doi": "10.1126/science.aaq1560",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W3012252063",
+      "title": "Leveraging the growth of open access in library collection decision making",
+      "year": 2017,
+      "authors": [
+        "Kristin Antelman"
+      ],
+      "citation_count": 18,
+      "abstract": "A primary goal for collection management is assessing the relative value of continuing information resources. A variety of new environmental factors and data are pertinent to relative value. One of the emerging metrics is the degree to which the articles within a subscription journal are also available open access (OA). That OA level directly affects the value of a journal subscription. This paper",
+      "venue": "CaltechAUTHORS (California Institute of Technology)",
+      "is_seed": false,
+      "doi": "",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W2611818942",
+      "title": "Unknown",
+      "year": null,
+      "authors": [],
+      "citation_count": 0,
+      "abstract": "",
+      "venue": "",
+      "is_seed": false,
+      "doi": "",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W4298108315",
+      "title": "Unknown",
+      "year": null,
+      "authors": [],
+      "citation_count": 0,
+      "abstract": "",
+      "venue": "",
+      "is_seed": false,
+      "doi": "",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W6637734586",
+      "title": "Unknown",
+      "year": null,
+      "authors": [],
+      "citation_count": 0,
+      "abstract": "",
+      "venue": "",
+      "is_seed": false,
+      "doi": "",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W6640061894",
+      "title": "Unknown",
+      "year": null,
+      "authors": [],
+      "citation_count": 0,
+      "abstract": "",
+      "venue": "",
+      "is_seed": false,
+      "doi": "",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W6640335369",
+      "title": "Unknown",
+      "year": null,
+      "authors": [],
+      "citation_count": 0,
+      "abstract": "",
+      "venue": "",
+      "is_seed": false,
+      "doi": "",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W6640848857",
+      "title": "Unknown",
+      "year": null,
+      "authors": [],
+      "citation_count": 0,
+      "abstract": "",
+      "venue": "",
+      "is_seed": false,
+      "doi": "",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W6687877900",
+      "title": "Unknown",
+      "year": null,
+      "authors": [],
+      "citation_count": 0,
+      "abstract": "",
+      "venue": "",
+      "is_seed": false,
+      "doi": "",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W6725637556",
+      "title": "Unknown",
+      "year": null,
+      "authors": [],
+      "citation_count": 0,
+      "abstract": "",
+      "venue": "",
+      "is_seed": false,
+      "doi": "",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W6744027076",
+      "title": "Unknown",
+      "year": null,
+      "authors": [],
+      "citation_count": 0,
+      "abstract": "",
+      "venue": "",
+      "is_seed": false,
+      "doi": "",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W6887727194",
+      "title": "A Social Networking Site Is Not an Open Access Repository",
+      "year": 2015,
+      "authors": [
+        "Fortney, Katie",
+        "Gonder, Justin"
+      ],
+      "citation_count": 15,
+      "abstract": "\"What's the difference between ResearchGate, Academia.edu, and the institutional repository?\" \"I put my papers in ResearchGate, is that enough for the open access policy? These and similar questions have been been common at open access events over the past couple of years. Authors want to better understand the differences between these platforms and when they should use one, the other, or some com",
+      "venue": "Knowledge Commons (Lakehead University)",
+      "is_seed": false,
+      "doi": "10.17613/he3pq-t3v18",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    },
+    {
+      "id": "W6948399261",
+      "title": "Open Access Citation Advantage: An Annotated Bibliography",
+      "year": 2010,
+      "authors": [
+        "A. Ben Wagner"
+      ],
+      "citation_count": 20,
+      "abstract": "",
+      "venue": "",
+      "is_seed": false,
+      "doi": "10.5062/f4q81b0w",
+      "arxiv": "",
+      "pagerank": 0.01818694,
+      "in_degree": 1,
+      "out_degree": 0
+    }
+  ],
+  "edges": [
+    {
+      "source": "W2741809807",
+      "target": "W1560783210",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W1724212071",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W1767272795",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W1917633107",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W1931854307",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W1944943415",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W1957687230",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W1989318653",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2003844967",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2016860460",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2020807482",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2029057325",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2031754690",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2048185449",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2078310052",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2089123513",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2115339903",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2140880926",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2160597895",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2231201268",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2299516731",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2306268324",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2322381034",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2343014812",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2345375849",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2463568293",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2511661767",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2511663072",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2520991028",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2563251083",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2566143661",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2587705861",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2588027260",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2611818942",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2737712680",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2753353163",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2762597540",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2785823074",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2953072907",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W2997143876",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W3012252063",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W3121567788",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W4254015553",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W4298108315",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W4301734034",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W6637734586",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W6640061894",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W6640335369",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W6640848857",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W6687877900",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W6725637556",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W6744027076",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W6887727194",
+      "edge_type": "references"
+    },
+    {
+      "source": "W2741809807",
+      "target": "W6948399261",
+      "edge_type": "references"
+    }
+  ]
+}

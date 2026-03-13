@@ -1,6 +1,9 @@
 from dataclasses import dataclass
 import networkx as nx
 
+from networkx.algorithms.link_analysis.pagerank_alg import _pagerank_python
+from networkx.exception import PowerIterationFailedConvergence
+
 
 @dataclass(frozen=True)
 class GraphMetrics:
@@ -11,8 +14,8 @@ class GraphMetrics:
 
 def compute_metrics(graph):
     try:
-        pagerank = nx.pagerank(graph, alpha=0.85)
-    except nx.PowerIterationFailedConvergence:
+        pagerank = _pagerank_python(graph, alpha=0.85)
+    except PowerIterationFailedConvergence:
         pagerank = {n: 0.0 for n in graph}
 
     return GraphMetrics(

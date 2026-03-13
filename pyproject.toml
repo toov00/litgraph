@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "litgraph"
+version = "0.1.0"
+description = "Map citation networks from OpenAlex"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "networkx>=3.0",
+    "requests>=2.28",
+    "urllib3>=1.26",
+]
+
+[project.scripts]
+litgraph = "cli.parser:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["cli*", "commands*", "core*", "api*", "model*", "graph*", "display*"]
